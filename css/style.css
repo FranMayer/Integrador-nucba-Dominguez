@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,700;1,100&display=swap');
+
+/*FUENTE font-family: 'Work Sans', sans-serif;*/
+:root {
+    --primary-color: blue; 
+    --secondary-color: red; 
+    --third-color: white;
+    --details-color: gold;
+}
+
+.separador {
+    color: var(--primary-color);
+    height: 3px;
+    margin: 30px 80px;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.logo {
+    height: 9rem;
+    margin: 20px;
+}
+
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.list-group {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    transition: display 0.5s ease;
+    line-height: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a li:hover {
+    color: var(--secondary-color);
+    text-decoration:underline;
+    
+}
+
+.list-item {
+    margin: 40px;
+    list-style: none;
+    color: black;
+    font-size: 20px;
+}
+
+/*MENU DESPLEGABLE*/
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-toggle {
+    display: none;
+    position: absolute;
+    right: 60px;
+}
+
+/*HERO SECTION*/
+.section-container {
+    width: 100%;
+    height: auto;
+}
+
+.banner-hero {
+    width: 100%;
+}
+
+/*ABOUT SECTION*/
+
+.about {
+    max-width: 1000px;
+    margin: 0 auto; 
+    padding: 20px; 
+    text-align: center; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    margin-top: 35px;
+    font-size: 19px;
+}
+
+/* MAIN SECTION*/
+
+.main-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    font-family: 'Work Sans';
+}
+
+/*CARDS*/
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    margin-bottom: 50px;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/*GALERIA*/
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+
+/* FORMULARIO CONTACTO */
+.title-form {
+    margin-top: 35px;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.container-form {
+    margin-top: 35px;
+}
+
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}  
+
+input,
+    textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.reset {
+    background-color: #ddd;
+    color: #333;
+}
+
+button.enviar:hover {
+        background-color: green;
+    }
+
+    /*FOOTER SECTION*/
+
+    .footer-container {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 35px;
+        padding: 10px;
+    }
+    
+    .footer-logo img {
+        max-width: 300px;
+    }
+    
+    .footer-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        line-height: 1.5;
+        margin-top: 20px;
+    }
+    
+    .listitem {
+        margin-bottom: 10px;
+    }
+    
+
+
+    .section-title {
+        font-size: 1.2em;
+        margin-bottom: 5px; 
+        margin-top: 75px;
+    }
+    
+    .footer-section {
+        margin-right: 20px; 
+    }
+
+    .marcas-contenedor {
+        display: flex;
+        justify-content: space-around; 
+        align-items: center;
+        margin: 0 20px; 
+        padding: 20px;
+    }
+    
+    .marcas-contenedor img {
+        width: 250px;
+        margin: 0 10px; 
+        height: 70px;
+    }
+    
+    
+    .marcas-contenedor::before,
+    .marcas-contenedor::after {
+        content: "";
+        flex: 1;
+        height: 1px;
+        background-color: var(--primary-color); 
+    }
+    
+    
+
+
