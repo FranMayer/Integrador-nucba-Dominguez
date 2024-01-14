@@ -230,8 +230,6 @@ button.enviar:hover {
         margin-bottom: 10px;
     }
     
-
-
     .section-title {
         font-size: 1.2em;
         margin-bottom: 5px; 
@@ -263,6 +261,41 @@ button.enviar:hover {
         flex: 1;
         height: 1px;
         background-color: var(--primary-color); 
+    }
+
+
+    @media only screen and (min-width: 968px) {
+        .footer-container {
+            flex-direction: row;
+        }
+    
+        .footer-section {
+            margin-right: 20px;
+        }
+    
+        .footer-logo img {
+            max-width: 150px; 
+        }
+    
+        .section-title {
+            margin-top: 0; 
+        }
+    
+        .marcas-contenedor {
+            margin: 0;
+        }
+    
+        .marcas-contenedor img {
+            width: 150px; 
+            height: auto;
+        }
+    
+        .marcas-contenedor::before,
+        .marcas-contenedor::after {
+            flex: 1;
+            height: 0;
+            background-color: transparent;
+        }
     }
     
     
