@@ -19,7 +19,6 @@
     a li:hover {
         color: var(--primary-color);
         text-decoration:underline;
-        
     }
 
     .navbar-container {
@@ -41,8 +40,6 @@
         width: 64px;
         
     }
-    
-
 
 /*CARDS*/
 
@@ -105,7 +102,7 @@
         width: 100%;
         text-align: center;
         display: none;
-        margin-top: 80px;
+        margin-top: 100px;
     }
 
     a li:hover {

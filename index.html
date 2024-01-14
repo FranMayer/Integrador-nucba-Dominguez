@@ -24,11 +24,12 @@
                 </label>
 
                 <ul class="list-group">
-                    <a href="#"><li class="list-item">Login/Registro</li></a>
-                    <a href="#"><li class="list-item">Historia</li></a>
-                    <a href="#"><li class="list-item">Información</li></a>
-                    <a href="#"><li class="list-item">Galeria</li></a>
-                    <a href="#"><li class="list-item">Contacto</li></a>
+                    <a href="./pages/login.html"><li class="list-item">Login</li></a>
+                    <a href="./pages/registro.html"><li class="list-item separate" >Registrate</li></a>
+                    <a href="#Historia"><li class="list-item">Historia</li></a>
+                    <a href="#Informacion"><li class="list-item">Información</li></a>
+                    <a href="#Galeria"><li class="list-item">Galeria</li></a>
+                    <a href="#Contacto"><li class="list-item">Contacto</li></a>
                 </ul>
 
         </nav>
@@ -36,12 +37,12 @@
 
     <!-- HERO -->
 
-<section class="section-container">
+<section class="section-container" id="Inicio">
         <img src="./assets/banner.jpg" alt="banner" class="banner-hero">
 </section>
 
 <!-- ABOUT -->
-    <div class="about">
+    <div class="about" id="Historia">
         <h2>Conoce nuestra historia</h2>
         <p>El Club Atlético Tigre es una centenaria entidad deportiva ubicada en la Zona Norte del Gran Buenos Aires, más precisamente en Victoria, partido de San Fernando, Buenos Aires, Argentina. Su nombre proviene de la ciudad de Tigre, donde fue fundado por un grupo de jóvenes liderados por José Dellagiovanna, el 3 de agosto de 1902</p><br>
 
@@ -61,7 +62,7 @@
 
 
     <!--- MAIN SECTION --->
-    <h2 style="text-align: center; margin-top: 35px;">Información</h2>
+    <h2 style="text-align: center; margin-top: 35px;" id="Informacion">Información</h2>
     <main class="main-container">
         <div class="card">
             <img src="./assets/comunicado.jpg" alt="Imagen 1">
@@ -87,7 +88,7 @@
 
 
     <h2 style="text-align: center; margin-bottom: 25px;">Mira las fotos del ultimo partido!</h2>
-    <section class="section-hinchadas">
+    <section class="section-hinchadas" id="Galeria">
         <div class="gallery">
             <img src="./assets/hinchada1.jpg" alt="Imagen 1">
             <img src="./assets/hinchada2.jpg" alt="Imagen 2">
@@ -104,7 +105,7 @@
 
 <!-- CONTACTO -->
 
-<h2 class="title-form">Ponete en contacto con nosotros!</h2>
+<h2 class="title-form" id="Contacto">Ponete en contacto con nosotros!</h2>
 
     <div class="container-form">
 
@@ -132,13 +133,13 @@
 
     <div class="footer-container">
         <div class="footer-logo">
-            <img src="./assets/logo.png" alt="logo">
+            <a href="./index.html"><img src="./assets/logo.png" alt="logo"></a>
         </div>
     
         <div class="footer-section">
             <h3 class="section-title">Enlaces útiles</h3>
             <ul class="footer-list">
-                <li class="listitem">Inicio</li>
+                <a href="#inicio"><li class="listitem">Inicio</li></a>
                 <li class="listitem">Club</li>
                 <li class="listitem">Juveniles</li>
             </ul>
