@@ -40,7 +40,7 @@
     }
 
     .separate {
-        display: none;
+        border: none;
     }
 
     /*HISTORIA*/
@@ -136,7 +136,7 @@
     }
 
     .separate {
-        display: none;
+        border: none;
     }
 
     .about img {
