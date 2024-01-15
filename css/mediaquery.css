@@ -1,5 +1,8 @@
 @media only screen and (max-width: 768px) {
     .navbar-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         flex-direction: column;
         align-items: center;
     }
@@ -13,7 +16,7 @@
         width: 100%;
         text-align: center;
         display: none;
-        margin-top: 80px;
+        margin-top: 90px;
     }
 
     a li:hover {
@@ -21,11 +24,6 @@
         text-decoration:underline;
     }
 
-    .navbar-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
 
     .menu-toggle {
         display: flex;
@@ -38,8 +36,18 @@
 
     .menu-toggle img {
         width: 64px;
-        
+        margin-top: 30px;
     }
+
+    .separate {
+        display: none;
+    }
+
+    /*HISTORIA*/
+
+.about img {
+    width: 100%;
+}
 
 /*CARDS*/
 
@@ -89,6 +97,9 @@
 @media only screen and (max-width: 992px) {
 
     .navbar-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         flex-direction: column;
         align-items: center;
     }
@@ -96,25 +107,18 @@
     .list-group {
         flex-direction: column;
         position: absolute;
-        top: 80px;
+        top: 140px;
         left: 0;
         background-color: rgb(241, 36, 36);
         width: 100%;
         text-align: center;
         display: none;
-        margin-top: 100px;
     }
 
     a li:hover {
         color: var(--primary-color);
         text-decoration:underline;
         
-    }
-
-    .navbar-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
     }
 
     .menu-toggle {
@@ -128,11 +132,18 @@
 
     .menu-toggle img {
         width: 64px;
-        
+        margin-top: 30px;
+    }
+
+    .separate {
+        display: none;
+    }
+
+    .about img {
+        width: 100%;
     }
 
 }
-
 
 
 @media only screen and (max-width: 1200px) {
