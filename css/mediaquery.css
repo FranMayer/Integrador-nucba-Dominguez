@@ -1,58 +1,23 @@
+@media screen and (max-width: 320px) { 
 
-@media screen and (min-width: 320px) { 
-
-    .section-container {
-        width: 120%;
-    }
-
-    .about {
-        width: 120%;
+    .section-container,
+    .about,
+    .main-container,
+    .section-hinchadas,
+    .container-form,
+    .footer-container {
+        width: 100%;
+        
     }
 
     .about img {
-        width: 100%;
-    }
-
-    .main-container {
-        width: 120%;
-    }
-
-    .section-hinchadas {
-        width: 120%;
-    }
-
-
-
-    .container-form {
-        width: 120%;
-    }
-
-    .footer-container {
-        width: 120%;
+        width: 100%; 
     }
 
     .footer-container iframe {
-        min-width: 320px;
+        min-width: 100%; 
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
